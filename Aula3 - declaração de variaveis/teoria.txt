@@ -1,0 +1,27 @@
+Sumario: Var, let e const;
+
+o var -> permite reatribuir valor;
+
+var x = 2;
+
+{
+    var x = 10;
+}
+
+document.getElementById( ).innerHTML = x; -> a saida será 10, por reatribui o valor;
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+let x = 2;
+
+{
+    let x = 10;
+}
+
+aqui ele respeita o escopo, ou seja x é 2 forá e 10 dentro das {};
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+Const -> é para declarar constantes, ele não pode ser reatribuido;

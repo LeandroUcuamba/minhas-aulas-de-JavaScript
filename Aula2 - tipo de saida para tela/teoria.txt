@@ -1,0 +1,9 @@
+// Basicamente no javaScript tem 4 formas de mandar ou exibir os dados os dados na tela;
+
+// 1 - document.getElementById("").inner="";
+
+// 2 - document.write(""); -> é usado somente para testes;
+ele aceita tag html dentro, e também aceita dados.
+Ex: document.write(5+5)
+
+// 3 - alert()

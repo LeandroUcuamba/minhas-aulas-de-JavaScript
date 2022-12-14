@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo js</title>
+
+    <style>
+        body{ text-align: center; }
+
+    </style>
+</head>
+
+<body>
+    <h1>Aprendendo javaScript</h1>
+    <p id="texto"></p>
+    
+    <button onclick="eventoClique()"> de um clique aqui</button>
+    <button ondblclick="eventoCliqueDuplo()"> de um duplo clique</button><br>
+    
+    <br>
+     
+    <select onchange="mudou()" id="itens">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+    </select>
+     
+    <br><br>
+
+
+    <div id="teste" onmousemove="adicionaTexto()" onmouseout="viraAzul()" onmouseover="viraVermelho()"
+    style="margin: auto; width:80%; height: 200px; background: blue; "> </div>
+    
+    <br>
+
+    <input onfocus="limpaTexto()" id="campoTexto" style="padding:50px; font-size:40px;" type="text" 
+    placeholder="Diz alguma coisa" value="já vem com texto">
+
+    <br>
+
+    <input onkeypress="teclaPressionada()" onblur="eventoClique()" id="campoTexto" style="padding:50px; font-size:40px;" type="text" 
+    placeholder="Diz alguma coisa">
+
+    <script src="js/index.js"> </script>
+</body>
+</html>

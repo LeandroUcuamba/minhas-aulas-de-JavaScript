@@ -1,0 +1,3 @@
+Vamos aprender a criar elementos html utilizando o javascript para isso nós vamos
+aprender sobre o metodo "createElement". Também vamos falar do appendChild() -> que 
+serve para adicionar o elemento criado em qualquer parte da pagina

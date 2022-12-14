@@ -1,0 +1,5 @@
+CreateAttribute;
+RemoveAttribute;
+SetAttributeNode;
+
+servem para controlar os atributos das tags html usando o JavaScript.

@@ -1,0 +1,12 @@
+                      EVENTOS DE TEMPO COM JAVASCRIPT
+
+Os eventos de tempo permitem a execução do código em intervaos de tempo
+especificados. Esses intervalos de tempo são chamados de eventos de cronometragem.
+
+Os dois metodos chaves para usar com JAVASCRIPT são:
+
+setTimeout(function, tempo em milisegundos)
+-> Executa uma função, depois de esperar um número especifico de milisegundos.
+
+setInterval(function, milisegundos)
+-> é o mesmo que o setTimeout(), mas repete a execução da função continuamente.
